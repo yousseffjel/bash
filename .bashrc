@@ -21,7 +21,7 @@ fi
 # EXPORTS
 #######################################################
 
-export BROWSER="brave"
+export BROWSER="thorium-browser"
 export EDITOR="vim"
 export VISUAL="lvim"
 export VIMINIT="source $MYVIMRC"
@@ -30,7 +30,7 @@ export HISTFILE="$HOME/.bash_history"
 export FZF_DEFAULT_COMMAND='ag --hidden --ignore .git -g ""'
 export CDPATH=".:$HOME:$HOME/.config/:$HOME/.local/:$HOME/.local/share/:$HOME/.local/programs"
 export CSCOPE_EDITOR="lvim"
-export PATH=/home/yusuf/.local/bin:$PATH
+export PATH=$HOME/.local/bin:$PATH
 export PATH=$PATH:"$HOME/.local/bin:$HOME/.cargo/bin:/var/lib/flatpak/exports/bin:/.local/share/flatpak/exports/bin"
 
 
